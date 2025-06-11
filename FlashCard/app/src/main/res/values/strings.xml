@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flashcard Quiz</string>
+    <string name="nav_header_title">Flashcard Quiz Master</string>
+    <string name="nav_header_subtitle">Learn Smarter, Not Harder</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <!-- Menu Items -->
+    <string name="menu_quiz">Start Quiz</string>
+    <string name="menu_add_flashcard">Add Flashcard</string>
+    <string name="menu_score_history">Score History</string>
+    <string name="menu_about">About App</string>
+
+    <!-- Flashcard Quiz Fragment -->
+    <string name="quiz_question_placeholder">Your question will appear here.</string>
+    <string name="enter_your_answer">Enter your answer</string>
+    <string name="check_answer">Check Answer</string>
+    <string name="next_card">Next Card</string>
+    <string name="current_score">Score: %1$d/%2$d</string>
+    <string name="quiz_correct">Correct!</string>
+    <string name="quiz_incorrect">Incorrect! The answer was: %1$s</string>
+    <string name="quiz_completed_title">Quiz Completed!</string>
+    <string name="quiz_completed_message">You scored %1$d out of %2$d questions.</string>
+    <string name="start_new_quiz">Start New Quiz</string>
+    <string name="no_flashcards_available">No flashcards available. Please add some first!</string>
+    <string name="quiz_loading_flashcards">Loading flashcards...</string>
+
+    <!-- Add Flashcard Fragment -->
+    <string name="add_flashcard_title">Add New Flashcard</string>
+    <string name="question_hint">Enter your question here</string>
+    <string name="answer_hint">Enter the answer here</string>
+    <string name="add_flashcard_button">Add Flashcard</string>
+    <string name="flashcard_added_success">Flashcard added successfully!</string>
+    <string name="flashcard_add_error">Failed to add flashcard: %1$s</string>
+    <string name="flashcard_add_empty_fields">Question and Answer cannot be empty.</string>
+
+    <!-- Score History Fragment -->
+    <string name="score_history_title">Quiz Score History</string>
+    <string name="score_history_loading">Loading score history...</string>
+    <string name="no_scores_yet">No quiz scores recorded yet.</string>
+    <string name="score_item_format">Date: %1$s\nScore: %2$d/%3$d</string>
+
+    <!-- About Fragment -->
+    <string name="about_title">About Flashcard Quiz App</string>
+    <string name="about_content">This is a simple flashcard quiz application designed to help you study and test your knowledge. You can add your own flashcards, take quizzes, and track your performance over time. Built with Kotlin and Firebase Firestore.</string>
+    <string name="about_version">Version 1.0</string>
+
+    <string name="action_settings">Settings</string>
+</resources>

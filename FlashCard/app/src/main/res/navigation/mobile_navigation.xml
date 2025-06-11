@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_add_flashcard"
+        android:name="com.saad.cse.flashcard.AddFlashcardFragment"
+        android:label="@string/menu_add_flashcard"
+        tools:layout="@layout/fragment_add_flashcard" />
+
+    <fragment
+        android:id="@+id/nav_quiz"
+        android:name="com.saad.cse.flashcard.FlashcardQuizFragment"
+        android:label="@string/menu_quiz"
+        tools:layout="@layout/fragment_flashcard_quiz" />
+
+    <fragment
+        android:id="@+id/nav_score_history"
+        android:name="com.saad.cse.flashcard.ScoreHistoryFragment"
+        android:label="@string/menu_score_history"
+        tools:layout="@layout/fragment_score_history" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="com.saad.cse.flashcard.AboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+</navigation>
