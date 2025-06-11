@@ -1,9 +1,0 @@
-<resources>
-    <string name="app_name">Random Quote Generator</string>
-    <string name="nav_header_title">Random Quote App</string>
-    <string name="nav_header_subtitle">Your daily dose of inspiration</string>
-    <string name="nav_header_desc">Navigation header</string>
-    <string name="menu_quotes">Quotes</string>
-    <string name="menu_about">About</string>
-    <string name="action_settings">Settings</string>
-</resources>
